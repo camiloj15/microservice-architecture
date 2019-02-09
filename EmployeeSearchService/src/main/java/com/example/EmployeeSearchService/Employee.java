@@ -1,3 +1,5 @@
+package com.example.EmployeeSearchService;
+
 public class Employee {
     private Long employeeId;
     private String name;
@@ -36,6 +38,6 @@ public class Employee {
     }
     @Override
     public String toString() {
-        return "Employee [employeeId=" + employeeId + ", name=" + name + ", practiceArea=" + practiceArea + ", designation=" + designation + ", companyInfo=" + companyInfo + "]";
+        return "com.example.EmployeeSearchService.Employee [employeeId=" + employeeId + ", name=" + name + ", practiceArea=" + practiceArea + ", designation=" + designation + ", companyInfo=" + companyInfo + "]";
     }
 }
