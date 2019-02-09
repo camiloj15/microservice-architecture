@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/demo-configure-server/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
         <option value="$PROJECT_DIR$/EmployeeSearchService/pom.xml" />
+        <option value="$PROJECT_DIR$/EmployerDashboardService/pom.xml" />
       </list>
     </option>
   </component>

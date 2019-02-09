@@ -7,12 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="EmployeeSearchService" />
+        <module name="EmployerDashboardService" />
         <module name="eureka-server" />
         <module name="MIcroserviceConfigServer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="EmployeeSearchService" target="1.8" />
+      <module name="EmployerDashboardService" target="1.8" />
       <module name="eureka-server" target="1.8" />
       <module name="MIcroserviceConfigServer" target="1.8" />
     </bytecodeTargetLevel>
