@@ -1,0 +1,31 @@
+server:
+  port: 8082
+
+spring:
+  cloud:
+  config:
+    uri: http://localhost:9090
+
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+# ribbon.eureka.enabled: false
+zuul:
+  ignoredServices: "*"
+  routes:
+    employeeDashboard:
+      path: /employee-dashboard/**
+      # serviceId as registed with Eureka. Enabled and used when ribbon.eureka.enabled is true.
+      serviceId: employee-dashboard
+      # zuul.routes.<the route>.url used when ribbon.eureka.enabled is false, serviceId is disabled.
+      #      url: http://localhost:8600/
+      # stripPrefix set to true if context path is set to /
+      stripPrefix: true
+    employeeSearch:
+      path: /employee-search/**
+      serviceId: employee-search
+      stripPrefix: true
