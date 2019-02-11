@@ -3,8 +3,13 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/EmployeeSearchService/EmployeeSearchService.iml" filepath="$PROJECT_DIR$/EmployeeSearchService/EmployeeSearchService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EmployeeSearchService/EmployeeSearchService.iml" filepath="$PROJECT_DIR$/EmployeeSearchService/EmployeeSearchService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EmployeeDashBoard2Service/EmployeeSearchService (1).iml" filepath="$PROJECT_DIR$/EmployeeDashBoard2Service/EmployeeSearchService (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/EmployerDashboardService/EmployerDashboardService.iml" filepath="$PROJECT_DIR$/EmployerDashboardService/EmployerDashboardService.iml" />
       <module fileurl="file://$PROJECT_DIR$/EmployerDashboardService/EmployerDashboardService.iml" filepath="$PROJECT_DIR$/EmployerDashboardService/EmployerDashboardService.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo-configure-server/MIcroserviceConfigServer.iml" filepath="$PROJECT_DIR$/demo-configure-server/MIcroserviceConfigServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-configure-server/demo.iml" filepath="$PROJECT_DIR$/demo-configure-server/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/microservices-architecture.iml" filepath="$PROJECT_DIR$/.idea/microservices-architecture.iml" />
     </modules>

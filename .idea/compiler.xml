@@ -6,14 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="demo" />
         <module name="EmployeeSearchService" />
+        <module name="EmployeeSearchService (1)" />
         <module name="EmployerDashboardService" />
         <module name="eureka-server" />
         <module name="MIcroserviceConfigServer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="demo" target="1.8" />
       <module name="EmployeeSearchService" target="1.8" />
+      <module name="EmployeeSearchService (1)" target="1.8" />
       <module name="EmployerDashboardService" target="1.8" />
       <module name="eureka-server" target="1.8" />
       <module name="MIcroserviceConfigServer" target="1.8" />
